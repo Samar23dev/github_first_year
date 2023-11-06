@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top ,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+.navbar{
+    width:1200px;
+    height: 7px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: rgb(0, 13, 255);
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 23px;
+    border-radius: 4px;
+    box-sizing: 4px;
+    float: left;
+    padding-top: 30px;
+
+}
+
+.logo :hover{
+    color: blueviolet;
+}
+
+.menu{
+    width: 800px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    list-style: none;
+    float:left;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+ul li a{
+    float: left;
+    margin-left: 40px;
+    color: rgb(125, 137, 212);
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: violet;
+}
+
+.register{
+    color: rgb(4, 87, 160);
+    padding-left: 900px;
+    padding-right: 50px;
+    padding-top: 140px;
+
+}
+
+.form{
+    color: yellow;
+}
+
+
+
+
